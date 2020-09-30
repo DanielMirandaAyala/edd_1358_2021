@@ -1,0 +1,75 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "name": "Untitled1.ipynb",
+      "provenance": [],
+      "authorship_tag": "ABX9TyPk96sR4UXsTn26h1eBXYzs",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/DanielMirandaAyala/edd_1358_2021/blob/edd_1358_2021/edd_1358_2021_clase1\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "id": "GPiQ3Zg5m4zi",
+        "outputId": "6a2e74e7-c9c3-43aa-b979-0b5ca4d0fb35",
+        "colab": {
+          "base_uri": "https://localhost:8080/",
+          "height": 129
+        }
+      },
+      "source": [
+        "print(\"hola ColabResearch\") \n",
+        "nombre=\"daniel\"\n",
+        "print(nombre)\n",
+        "# Hola, esto es un ecabezado\n",
+        "##encabezado nivel 2\n",
+        "###sintaxis markdown\n",
+        "* elem 1\n",
+        "* elem 2\n",
+        "* elem 3\n",
+        "1. Fresa\n",
+        "1. Manzana;\n",
+        "1. Pera;\n",
+        "class Silla():\n",
+        "  def init ( self ):\n",
+        "    self.material = \"\"\n",
+        "    self.color = \"\"\n",
+        "  def to_string (self):\n",
+        "      print (\"----------------\")\n",
+        "      print (f\"Material:{self.material}\")\n",
+        "      print (f\"{self.color} -------------\")\n",
+        "obj = Silla()\n",
+        "obj.color= \"Cafe\"\n",
+        "obj.to_string()"
+      ],
+      "execution_count": 7,
+      "outputs": [
+        {
+          "output_type": "error",
+          "ename": "SyntaxError",
+          "evalue": "ignored",
+          "traceback": [
+            "\u001b[0;36m  File \u001b[0;32m\"<ipython-input-7-d83ddfe7052d>\"\u001b[0;36m, line \u001b[0;32m7\u001b[0m\n\u001b[0;31m    * elem 1\u001b[0m\n\u001b[0m           ^\u001b[0m\n\u001b[0;31mSyntaxError\u001b[0m\u001b[0;31m:\u001b[0m invalid syntax\n"
+          ]
+        }
+      ]
+    }
+  ]
+}
