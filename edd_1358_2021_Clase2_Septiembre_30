@@ -1,0 +1,111 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "name": "Untitled2.ipynb",
+      "provenance": [],
+      "authorship_tag": "ABX9TyP7u3fXuZmzPqkDnibZ4Kam",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/DanielMirandaAyala/edd_1358_2021/blob/master/edd_1358_2021_Clase2_Septiembre_30\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "id": "divGi7N_tROO"
+      },
+      "source": [
+        ""
+      ],
+      "execution_count": 4,
+      "outputs": []
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "OJ_xBu7zu85X"
+      },
+      "source": [
+        "#Fundamentos Python 3\n",
+        "###Tipos de dato basicos\n",
+        "nombre = 13\n",
+        "edad = \"José\"\n",
+        "estatura = 1.67\n",
+        "tiene_ine = True\n",
+        "###Compuestos\n",
+        "\n",
+        "###Listas\n",
+        "Son mutables\n",
+        "Se accede a los elementos via indice\n",
+        "los elementos pueden ser de diferente tipo\n",
+        "\n",
+        "lista_ejemplo = (\"root\", \"123.322.45.4\", 1234dios)\n",
+        "###Tuplas\n",
+        "Son inmutables\n",
+        "Se accede a los elementos via el indice\n",
+        "Los elementos pueden ser de diferente tipo\n",
+        "###Diccionarios\n",
+        "Son equivalentes a los JSON de JS\n",
+        "###Sets\n",
+        "SOn datos agrupados"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "id": "oWltn2d3uPoM"
+      },
+      "source": [
+        "lista_ejemplo = (\"manzana\", 1.67, True, [rojo, azul])\n",
+        "print(lista_ejemplo[1])\n",
+        "print(lista_ejemplo[2])\n",
+        "print(lista_ejemplo[3][1])\n",
+        "lista_ejemplo[0]=Manzana\n",
+        "print(lista_ejemplo)\n",
+        "\n",
+        "#Agregar un elemento al final\n",
+        "lista_ejemplo.append(\"iPhone\")\n",
+        "print(lista_ejemplo)\n",
+        "\n",
+        "#sacar el ultimo elemento\n",
+        "valor = lista_ejemplo.pop()\n",
+        "print(valor)\n",
+        "print(lista_ejemplo)\n",
+        "\n",
+        "#documentacion del tipo de dato dir() y help()\n",
+        "lista_ejemplo.insert(1, \"Huawei\")\n",
+        "print(lista_ejemplo)\n",
+        "\n",
+        "conteo = lista_ejemplo.count(\"Huawei\")\n",
+        "print(conteo)\n",
+        "\n",
+        "colores = [\"rosa\", \"rojo\", \"naranja\"]\n",
+        "lista_ejemplo.apend(colores)\n",
+        "\n",
+        "print(lista_ejemplo)\n",
+        "\n",
+        "#con extends funcionan dos listas\n",
+        "\n",
+        "lista_ejemplo.estend(colores)\n",
+        "print(lista_ejemplo)\n"
+      ],
+      "execution_count": null,
+      "outputs": []
+    }
+  ]
+}
