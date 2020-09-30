@@ -1,0 +1,109 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "name": "Untitled3.ipynb",
+      "provenance": [],
+      "collapsed_sections": [],
+      "authorship_tag": "ABX9TyNe51OBaTOL1u5+hCUzGd2K"
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "rKANz21431rg"
+      },
+      "source": [
+        "#Fundamentos Python\n",
+        "###Tipos de dato basicos\n",
+        "nombre = 13\n",
+        "edad = \"José\"\n",
+        "estatura = 1.67\n",
+        "tiene_ine = True\n",
+        "###Compuestos\n",
+        "        \n",
+        "###Listas\n",
+        "Son mutables\n",
+        "Se accede a los elementos via indice\n",
+        "los elementos pueden ser de diferente tipo\n",
+        "\n",
+        "lista_ejemplo = (\"root\", \"123.322.45.4\", 1234dios)\n",
+        "###Tuplas\n",
+        "Son inmutables\n",
+        "Se accede a los elementos via el indice\n",
+        "###Diccionarios\n",
+        "Son equivalentes a los JSON de JS\n",
+        "###Sets\n",
+        "SOn datos agrupados\""
+      ]
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "id": "YeIZlK6l2wgW",
+        "outputId": "2ab731c3-6248-42ab-9fbd-8dcdc3d77aa9",
+        "colab": {
+          "base_uri": "https://localhost:8080/",
+          "height": 204
+        }
+      },
+      "source": [
+        "lista_ejemplo = [\"manzana\", 1.67, True, [\"rojo\", \"azul\"]]\n",
+        "print(lista_ejemplo[1])\n",
+        "print(lista_ejemplo[2])\n",
+        "print(lista_ejemplo[3][1])\n",
+        "print(lista_ejemplo)\n",
+        "\n",
+        "#Agregar un elemento al final\\n\",\n",
+        "lista_ejemplo.append(\"iPhone\")\n",
+        "print(lista_ejemplo)\n",
+        "valor = lista_ejemplo.pop()\n",
+        "print(valor)\n",
+        "print(lista_ejemplo)\n",
+        "        \n",
+        "#documentacion del tipo de dato dir() y help()\n",
+        "lista_ejemplo.insert(1, \"Huawei\")\n",
+        "print(lista_ejemplo)\n",
+        "        \n",
+        "conteo = lista_ejemplo.count(\"Huawei\")\n",
+        "print(conteo)\n",
+        "        \n",
+        "colores = [\"rosa\", \"rojo\", \"naranja\"]\n",
+        "lista_ejemplo.append(colores)\n",
+        "        \n",
+        "print(lista_ejemplo)\n",
+        "        \n",
+        "#con extends funcionan dos listas\n",
+        "        \n",
+        "lista_ejemplo.extend(colores)\n",
+        "print(lista_ejemplo)"
+      ],
+      "execution_count": 9,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "text": [
+            "1.67\n",
+            "True\n",
+            "azul\n",
+            "['manzana', 1.67, True, ['rojo', 'azul']]\n",
+            "['manzana', 1.67, True, ['rojo', 'azul'], 'iPhone']\n",
+            "iPhone\n",
+            "['manzana', 1.67, True, ['rojo', 'azul']]\n",
+            "['manzana', 'Huawei', 1.67, True, ['rojo', 'azul']]\n",
+            "1\n",
+            "['manzana', 'Huawei', 1.67, True, ['rojo', 'azul'], ['rosa', 'rojo', 'naranja']]\n",
+            "['manzana', 'Huawei', 1.67, True, ['rojo', 'azul'], ['rosa', 'rojo', 'naranja'], 'rosa', 'rojo', 'naranja']\n"
+          ],
+          "name": "stdout"
+        }
+      ]
+    }
+  ]
+}
